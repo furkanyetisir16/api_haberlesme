@@ -1,0 +1,21 @@
+{
+  "name": "natours-api",
+  "version": "1.0.0",
+  "description": "rest api developed by js from natours",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "ozguryigit",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
