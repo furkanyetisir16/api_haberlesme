@@ -8,7 +8,7 @@
     "start": "nodemon server.js",
     "prod": "NODE_ENV=production nodemon server.js"
   },
-  "author": "ozguryigit",
+  "author": "furkanyetisir",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
